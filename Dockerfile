@@ -6,4 +6,4 @@ COPY . /app
 
 RUN npm install 
 
-RUN node server.js
+CMD ["node", "server.js"]
